@@ -1,0 +1,36 @@
+import Image from "next/image";
+
+interface ServiceCardProps {
+  title: string;
+  description: string;
+  imageSrc?: string;
+  icon?: React.ReactNode;
+}
+
+export default function ServiceCard({ title, description, imageSrc, icon }: ServiceCardProps) {
+  return (
+    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow group">
+      {imageSrc && (
+        <div className="relative h-48 w-full">
+          <Image
+            src={imageSrc}
+            alt={title}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            sizes="(max-width: 768px) 100vw, 25vw"
+          />
+          <div className="absolute inset-0 bg-[#1B2A4A]/30" />
+        </div>
+      )}
+      <div className="p-6">
+        {icon && (
+          <div className="w-12 h-12 bg-[#1B2A4A]/10 rounded-lg flex items-center justify-center mb-4 text-[#1B2A4A]">
+            {icon}
+          </div>
+        )}
+        <h3 className="text-lg font-semibold text-[#1B2A4A] mb-2">{title}</h3>
+        <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
+      </div>
+    </div>
+  );
+}
