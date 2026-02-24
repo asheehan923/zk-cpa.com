@@ -39,25 +39,28 @@ const services = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero */}
+      {/* Hero — Palm trees, Orange County feel */}
       <Hero
         heading="Elevate Your Finances with Zarrinkelk CPAs"
         subtext="Expert accounting and financial services for individuals and businesses"
         ctaLabel="Get Started"
         ctaHref="/contact"
         imageSrc="/images/hero-bg.jpg"
-        imageAlt="Professional financial services"
+        imageAlt="Orange County California palm trees"
       />
 
       {/* Services Teaser */}
       <section className="py-20 bg-[#F7F8FA]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#1B2A4A]">Services Offered</h2>
+            <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
+              What We Do
+            </p>
+            <h2 className="text-3xl font-bold text-[#1A35BF]">Services Offered</h2>
             <p className="mt-3 text-gray-500 text-lg max-w-2xl mx-auto">
               Tailored financial solutions for businesses and high net worth individuals in Orange County.
             </p>
-            <div className="mt-4 mx-auto w-16 h-1 bg-[#C9A84C] rounded" />
+            <div className="mt-4 mx-auto w-16 h-1 bg-[#00C2E8] rounded" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((s) => (
@@ -67,7 +70,7 @@ export default function HomePage() {
           <div className="mt-12 text-center">
             <Link
               href="/services"
-              className="inline-block px-8 py-3 border-2 border-[#1B2A4A] text-[#1B2A4A] font-semibold rounded hover:bg-[#1B2A4A] hover:text-white transition-colors"
+              className="inline-block px-8 py-3 border-2 border-[#1A35BF] text-[#1A35BF] font-semibold rounded hover:bg-[#1A35BF] hover:text-white transition-colors"
             >
               Learn More
             </Link>
@@ -80,10 +83,10 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[#C9A84C] font-semibold text-sm uppercase tracking-wider mb-3">
+              <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
                 About Us
               </p>
-              <h2 className="text-3xl font-bold text-[#1B2A4A] mb-4">
+              <h2 className="text-3xl font-bold text-[#1A35BF] mb-4">
                 Trusted Accounting Excellence
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -98,7 +101,7 @@ export default function HomePage() {
               </p>
               <Link
                 href="/about"
-                className="inline-block px-6 py-3 bg-[#C9A84C] text-[#1B2A4A] font-semibold rounded hover:bg-[#d9bc72] transition-colors"
+                className="inline-block px-6 py-3 bg-[#00C2E8] text-[#0D1F7A] font-semibold rounded hover:bg-[#33D4F5] transition-colors"
               >
                 Meet Our Team
               </Link>
@@ -116,17 +119,17 @@ export default function HomePage() {
       </section>
 
       {/* CTA Banner */}
-      <section className="py-16 bg-[#1B2A4A]">
+      <section className="py-16 bg-gradient-to-r from-[#1A35BF] to-[#00AEEF]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Take Control of Your Finances?
           </h2>
-          <p className="text-gray-300 text-lg mb-8">
+          <p className="text-blue-100 text-lg mb-8">
             Schedule a consultation with our team today.
           </p>
           <Link
             href="/contact"
-            className="inline-block px-10 py-4 bg-[#C9A84C] text-[#1B2A4A] font-bold rounded hover:bg-[#d9bc72] transition-colors text-base"
+            className="inline-block px-10 py-4 bg-white text-[#1A35BF] font-bold rounded hover:bg-blue-50 transition-colors text-base shadow"
           >
             Contact Us Today
           </Link>

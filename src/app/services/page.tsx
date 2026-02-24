@@ -50,13 +50,13 @@ export default function ServicesPage() {
       <section className="py-20 bg-[#F7F8FA]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-[#C9A84C] font-semibold text-sm uppercase tracking-wider mb-3">
+            <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
               What We Offer
             </p>
-            <h2 className="text-3xl font-bold text-[#1B2A4A]">
+            <h2 className="text-3xl font-bold text-[#1A35BF]">
               Financial Services for Every Need
             </h2>
-            <div className="mt-4 mx-auto w-16 h-1 bg-[#C9A84C] rounded" />
+            <div className="mt-4 mx-auto w-16 h-1 bg-[#00C2E8] rounded" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {services.map((s) => (
@@ -69,10 +69,10 @@ export default function ServicesPage() {
       {/* Why Choose Us */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#C9A84C] font-semibold text-sm uppercase tracking-wider mb-3">
+          <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
             Why Zarrinkelk CPAs
           </p>
-          <h2 className="text-3xl font-bold text-[#1B2A4A] mb-6">
+          <h2 className="text-3xl font-bold text-[#1A35BF] mb-6">
             A Partner You Can Trust
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10">
@@ -83,7 +83,7 @@ export default function ServicesPage() {
             ].map((item) => (
               <div key={item.title} className="flex flex-col items-center">
                 <span className="text-4xl mb-3">{item.icon}</span>
-                <h3 className="text-lg font-semibold text-[#1B2A4A] mb-2">{item.title}</h3>
+                <h3 className="text-lg font-semibold text-[#1A35BF] mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -92,17 +92,17 @@ export default function ServicesPage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-16 bg-[#1B2A4A]">
+      <section className="py-16 bg-gradient-to-r from-[#1A35BF] to-[#00AEEF]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Get Started?
           </h2>
-          <p className="text-gray-300 text-lg mb-8">
+          <p className="text-blue-100 text-lg mb-8">
             Contact us today for a complimentary consultation.
           </p>
           <Link
             href="/contact"
-            className="inline-block px-10 py-4 bg-[#C9A84C] text-[#1B2A4A] font-bold rounded hover:bg-[#d9bc72] transition-colors text-base"
+            className="inline-block px-10 py-4 bg-white text-[#1A35BF] font-bold rounded hover:bg-blue-50 transition-colors text-base shadow"
           >
             Schedule a Consultation
           </Link>

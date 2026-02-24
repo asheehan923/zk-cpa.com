@@ -9,19 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: {
-          DEFAULT: "#1B2A4A",
-          light: "#253660",
-          dark: "#131f36",
-        },
-        gold: {
-          DEFAULT: "#C9A84C",
-          light: "#d9bc72",
-          dark: "#a8872e",
-        },
-        gray: {
-          50: "#F7F8FA",
-          900: "#2D2D2D",
+        // Logo-derived palette
+        // Darkest shade from logo gradient (deep cobalt blue)
+        brand: {
+          dark:    "#1A35BF",   // darkest — deep cobalt (logo bottom-left)
+          DEFAULT: "#2244D0",   // mid blue
+          light:   "#3A6AE8",   // lighter blue
+          cyan:    "#00AEEF",   // wordmark cyan
+          sky:     "#00C2E8",   // lightest — bright cyan (logo right side)
+          pale:    "#E8F6FD",   // very light tint for backgrounds
         },
       },
       fontFamily: {

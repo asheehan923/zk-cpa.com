@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -16,16 +17,21 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#1B2A4A] shadow-md">
+    <nav className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex flex-col leading-tight">
-            <span className="text-white font-bold text-lg tracking-wide">
-              Zarrinkelk CPAs
-            </span>
-            <span className="text-[#C9A84C] text-xs font-medium tracking-wider uppercase">
-              Certified Public Accountants
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/images/logos/Logo Transparency w.o tagline.png"
+              alt="Zarrinkelk CPAs logo"
+              width={44}
+              height={44}
+              className="object-contain"
+              priority
+            />
+            <span className="text-[#1A35BF] font-bold text-base leading-tight hidden sm:block">
+              Zarrinkelk CPAs, Inc.
             </span>
           </Link>
 
@@ -37,8 +43,8 @@ export default function Navbar() {
                 href={href}
                 className={`text-sm font-medium transition-colors ${
                   pathname === href
-                    ? "text-[#C9A84C] border-b-2 border-[#C9A84C] pb-0.5"
-                    : "text-gray-200 hover:text-[#C9A84C]"
+                    ? "text-[#00AEEF] border-b-2 border-[#00AEEF] pb-0.5"
+                    : "text-gray-600 hover:text-[#1A35BF]"
                 }`}
               >
                 {label}
@@ -46,7 +52,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="ml-2 px-4 py-2 bg-[#C9A84C] text-[#1B2A4A] text-sm font-semibold rounded hover:bg-[#d9bc72] transition-colors"
+              className="ml-2 px-4 py-2 bg-[#1A35BF] text-white text-sm font-semibold rounded hover:bg-[#2244D0] transition-colors"
             >
               Get Started
             </Link>
@@ -54,7 +60,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-gray-200 hover:text-white"
+            className="md:hidden text-gray-600 hover:text-[#1A35BF]"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
@@ -71,14 +77,14 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-[#253660] px-4 pb-4 pt-2 space-y-2">
+        <div className="md:hidden bg-white border-t border-gray-100 px-4 pb-4 pt-2 space-y-2">
           {navLinks.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
               onClick={() => setMenuOpen(false)}
               className={`block py-2 text-sm font-medium transition-colors ${
-                pathname === href ? "text-[#C9A84C]" : "text-gray-200 hover:text-[#C9A84C]"
+                pathname === href ? "text-[#00AEEF]" : "text-gray-600 hover:text-[#1A35BF]"
               }`}
             >
               {label}

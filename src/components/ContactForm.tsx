@@ -44,7 +44,7 @@ export default function ContactForm() {
           type="text"
           required
           placeholder="John Smith"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#1B2A4A] focus:border-transparent transition"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#1A35BF] focus:border-transparent transition"
         />
       </div>
 
@@ -58,7 +58,7 @@ export default function ContactForm() {
           type="email"
           required
           placeholder="john@example.com"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#1B2A4A] focus:border-transparent transition"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#1A35BF] focus:border-transparent transition"
         />
       </div>
 
@@ -72,14 +72,14 @@ export default function ContactForm() {
           required
           rows={5}
           placeholder="How can we help you?"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#1B2A4A] focus:border-transparent transition resize-none"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#1A35BF] focus:border-transparent transition resize-none"
         />
       </div>
 
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="w-full py-3 bg-[#1B2A4A] text-white font-semibold rounded-lg hover:bg-[#253660] disabled:opacity-60 transition-colors text-sm"
+        className="w-full py-3 bg-[#1A35BF] text-white font-semibold rounded-lg hover:bg-[#2244D0] disabled:opacity-60 transition-colors text-sm"
       >
         {status === "submitting" ? "Sending..." : "Send Message"}
       </button>

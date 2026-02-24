@@ -39,10 +39,10 @@ export default function AboutPage() {
               />
             </div>
             <div className="order-1 md:order-2">
-              <p className="text-[#C9A84C] font-semibold text-sm uppercase tracking-wider mb-3">
+              <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
                 Our Story
               </p>
-              <h2 className="text-3xl font-bold text-[#1B2A4A] mb-4">
+              <h2 className="text-3xl font-bold text-[#1A35BF] mb-4">
                 Trusted Accounting Excellence
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -62,9 +62,9 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-16 bg-[#F7F8FA]">
+      <section className="py-16 bg-[#E8F6FD]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-gray-200">
+          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-[#00C2E8]/30">
             {stats.map((stat) => (
               <StatCounter key={stat.label} value={stat.value} label={stat.label} />
             ))}
@@ -76,11 +76,11 @@ export default function AboutPage() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-[#C9A84C] font-semibold text-sm uppercase tracking-wider mb-3">
+            <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
               Our Team
             </p>
-            <h2 className="text-3xl font-bold text-[#1B2A4A]">Meet Our Expert</h2>
-            <div className="mt-4 mx-auto w-16 h-1 bg-[#C9A84C] rounded" />
+            <h2 className="text-3xl font-bold text-[#1A35BF]">Meet Our Expert</h2>
+            <div className="mt-4 mx-auto w-16 h-1 bg-[#00C2E8] rounded" />
           </div>
           <div className="flex justify-center">
             <TeamCard
@@ -94,17 +94,17 @@ export default function AboutPage() {
       </section>
 
       {/* Services CTA */}
-      <section className="py-16 bg-[#1B2A4A]">
+      <section className="py-16 bg-gradient-to-r from-[#1A35BF] to-[#00AEEF]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Explore Our Services
           </h2>
-          <p className="text-gray-300 text-lg mb-8">
+          <p className="text-blue-100 text-lg mb-8">
             From tax preparation to business advisory — we have you covered.
           </p>
           <Link
             href="/services"
-            className="inline-block px-10 py-4 bg-[#C9A84C] text-[#1B2A4A] font-bold rounded hover:bg-[#d9bc72] transition-colors text-base"
+            className="inline-block px-10 py-4 bg-white text-[#1A35BF] font-bold rounded hover:bg-blue-50 transition-colors text-base shadow"
           >
             View Services
           </Link>
