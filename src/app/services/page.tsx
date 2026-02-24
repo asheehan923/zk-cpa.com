@@ -6,7 +6,7 @@ import ServiceCard from "@/components/ServiceCard";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Tax preparation, financial planning, business advisory, and accountancy services for individuals and businesses in Orange County, CA.",
+    "Tax preparation, financial planning, business advisory, and accounting services for individuals and businesses in Orange County, CA.",
 };
 
 const services = [
@@ -29,9 +29,9 @@ const services = [
     imageSrc: "/images/accounting-3.jpg",
   },
   {
-    title: "Accountancy Services",
+    title: "Accounting Services",
     description:
-      "Accurate and efficient accountancy services to maintain records, track financial transactions, and streamline accounting processes for better financial management.",
+      "Accurate and efficient accounting services to maintain records, track financial transactions, and streamline accounting processes for better financial management.",
     imageSrc: "/images/accounting-4.jpg",
   },
 ];

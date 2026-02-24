@@ -10,17 +10,21 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      {/* Page Header */}
-      <section className="bg-gradient-to-r from-[#1A35BF] to-[#00AEEF] py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-blue-100 font-semibold text-sm uppercase tracking-wider mb-3">
+      {/* Page Header — light gray fade, consistent with Hero style */}
+      <section
+        className="relative w-full py-20 flex items-center bg-cover bg-center bg-fixed"
+        style={{ backgroundImage: "url('/images/services-bg.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/65 to-white/20" />
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
+          <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
             Reach Out
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-white">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#1A35BF]">
             Get In Touch With Us
           </h1>
-          <p className="mt-4 text-blue-100 text-lg">
-            Our Offices — Visit our offices for personalized financial consultations.
+          <p className="mt-4 text-[#3A6AE8] text-lg">
+            Our Offices — Visit us for personalized financial consultations.
           </p>
         </div>
       </section>
@@ -61,10 +65,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-[#1A35BF] text-sm">Phone</p>
-                    <a
-                      href="tel:9498746515"
-                      className="text-gray-600 text-sm mt-1 block hover:text-[#00AEEF] transition-colors"
-                    >
+                    <a href="tel:9498746515" className="text-gray-600 text-sm mt-1 block hover:text-[#00AEEF] transition-colors">
                       949-874-6515
                     </a>
                   </div>
@@ -79,17 +80,14 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-[#1A35BF] text-sm">Email</p>
-                    <a
-                      href="mailto:majid@zk-cpa.com"
-                      className="text-gray-600 text-sm mt-1 block hover:text-[#00AEEF] transition-colors"
-                    >
+                    <a href="mailto:majid@zk-cpa.com" className="text-gray-600 text-sm mt-1 block hover:text-[#00AEEF] transition-colors">
                       majid@zk-cpa.com
                     </a>
                   </div>
                 </div>
               </div>
 
-              {/* Google Maps embed — no API key needed, free embed URL */}
+              {/* Google Maps — free embed, no API key */}
               <div className="mt-8 rounded-xl overflow-hidden shadow-md h-56">
                 <iframe
                   title="Zarrinkelk CPAs — 6789 Quail Hill Pkwy Suite 510, Irvine CA"
@@ -102,8 +100,6 @@ export default function ContactPage() {
                   referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
-
-              {/* Directions link */}
               <a
                 href="https://maps.google.com/maps?q=6789+Quail+Hill+Pkwy+Suite+510+Irvine+CA+92603"
                 target="_blank"

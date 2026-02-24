@@ -29,9 +29,9 @@ const services = [
     imageSrc: "/images/accounting-3.jpg",
   },
   {
-    title: "Bookkeeping",
+    title: "Accounting Services",
     description:
-      "Accurate and efficient bookkeeping services to maintain records and streamline your financial management.",
+      "Accurate and efficient accounting services to maintain records and streamline your financial management.",
     imageSrc: "/images/accounting-4.jpg",
   },
 ];
@@ -39,7 +39,7 @@ const services = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero — Palm trees, Orange County feel */}
+      {/* Hero */}
       <Hero
         heading="Elevate Your Finances with Zarrinkelk CPAs"
         subtext="Expert accounting and financial services for individuals and businesses"

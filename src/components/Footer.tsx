@@ -7,15 +7,20 @@ const footerLinks = [
   { href: "/contact", label: "Contact" },
 ];
 
+const legalLinks = [
+  { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/terms-of-service", label: "Terms of Service" },
+];
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
     <footer className="bg-[#0D1F7A] text-gray-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
-          <div>
+          <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-3">
               <Image
                 src="/images/logos/Logo Transparency w.o tagline.png"
@@ -28,9 +33,9 @@ export default function Footer() {
                 Zarrinkelk CPAs, Inc.
               </span>
             </Link>
-            <p className="text-sm text-gray-400 leading-relaxed mt-2">
+            <p className="text-sm text-gray-400 leading-relaxed mt-2 max-w-sm">
               Tax Accounting & Bookkeeping for Small Businesses and Medium to
-              High Net Worth Individuals.
+              High Net Worth Individuals. Serving Orange County since 1982.
             </p>
           </div>
 
@@ -78,8 +83,20 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/10 text-center text-xs text-gray-500">
-          &copy; {year} Zarrinkelk CPAs, Inc. All rights reserved.
+        {/* Bottom bar */}
+        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
+          <span>&copy; {year} Zarrinkelk CPAs, Inc. All rights reserved.</span>
+          <div className="flex items-center gap-4">
+            {legalLinks.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className="hover:text-[#00C2E8] transition-colors"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </footer>
