@@ -123,11 +123,6 @@ export default function AboutPage() {
                 decisions — whether structuring a business entity, managing an estate, or
                 planning for retirement.
               </p>
-              <p className="text-[#2b3947] font-medium italic">
-                &ldquo;My goal is simple: help my clients keep more of what they earn and make
-                informed decisions with confidence.&rdquo;
-                <span className="block text-gray-500 font-normal not-italic mt-1">— Majid Zarrinkelk, CPA</span>
-              </p>
             </div>
           </div>
         </div>
