@@ -23,7 +23,7 @@ export default function Hero({
       aria-label="Page header"
     >
       {/* Light gray fade overlay — left-heavy for text legibility */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/65 to-white/20" />
+      <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/40 to-white/5" />
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
