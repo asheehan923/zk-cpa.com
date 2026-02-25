@@ -32,8 +32,8 @@ export default function AboutPage() {
             <div className="relative h-80 rounded-xl overflow-hidden shadow-lg order-2 md:order-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/who-we-are.jpg"
-                alt="Who we are"
+                src="/images/pexels-yankrukov-7792818.jpg"
+                alt="Zarrinkelk CPAs team at work"
                 className="w-full h-full object-cover"
               />
             </div>
