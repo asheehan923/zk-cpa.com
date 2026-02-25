@@ -42,8 +42,8 @@ export default function ServicesPage() {
       <Hero
         heading="Our Services"
         subtext="Comprehensive financial services tailored to your unique needs."
-        imageSrc="/images/services-bg.jpg"
-        imageAlt="Zarrinkelk CPAs services"
+        imageSrc="/images/pexels-ollinfocus-34104547.jpg"
+        imageAlt="Laguna Beach Orange County coastline"
       />
 
       {/* Services Grid */}
