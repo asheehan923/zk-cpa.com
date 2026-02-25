@@ -34,7 +34,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mt-2 max-w-sm">
-              Tax Accounting & Bookkeeping for Small Businesses and Medium to
+              Tax Accounting & Financial Services for Small Businesses and Medium to
               High Net Worth Individuals. Serving Orange County since 1982.
             </p>
           </div>

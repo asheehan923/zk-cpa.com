@@ -15,7 +15,7 @@ export default function ContactPage() {
         className="relative w-full py-20 flex items-center bg-cover bg-fixed"
         style={{ backgroundImage: "url('/images/pexels-yankrukov-7792818.jpg')", backgroundPosition: "center 25%" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/40 to-white/5" />
+        <div className="absolute inset-0 bg-white/55" />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
           <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
             Reach Out

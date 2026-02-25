@@ -109,7 +109,7 @@ export default function HomePage() {
             <div className="relative h-80 rounded-xl overflow-hidden shadow-lg">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/who-we-are.jpg"
+                src="/images/pexels-timmossholder-3936201 (1).jpg"
                 alt="Zarrinkelk CPAs team"
                 className="w-full h-full object-cover"
               />
