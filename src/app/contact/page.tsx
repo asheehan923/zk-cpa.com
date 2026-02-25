@@ -12,8 +12,8 @@ export default function ContactPage() {
     <>
       {/* Page Header — light gray fade, consistent with Hero style */}
       <section
-        className="relative w-full py-20 flex items-center bg-cover bg-center bg-fixed"
-        style={{ backgroundImage: "url('/images/services-bg.jpg')" }}
+        className="relative w-full py-20 flex items-center bg-cover bg-fixed"
+        style={{ backgroundImage: "url('/images/pexels-yankrukov-7792818.jpg')", backgroundPosition: "center 25%" }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/40 to-white/5" />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">

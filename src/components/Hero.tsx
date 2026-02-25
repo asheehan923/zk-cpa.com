@@ -18,8 +18,8 @@ export default function Hero({
 }: HeroProps) {
   return (
     <section
-      className="relative w-full h-[480px] md:h-[560px] flex items-center bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: `url('${imageSrc}')` }}
+      className="relative w-full h-[480px] md:h-[560px] flex items-center bg-cover bg-fixed"
+      style={{ backgroundImage: `url('${imageSrc}')`, backgroundPosition: "center 25%" }}
       aria-label="Page header"
     >
       {/* Light gray fade overlay — left-heavy for text legibility */}
