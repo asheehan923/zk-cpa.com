@@ -21,8 +21,8 @@ export default function AboutPage() {
       <Hero
         heading="Empowering Financial Success Through Expertise"
         subtext="Trusted by businesses and individuals throughout Orange County, CA."
-        imageSrc="/images/about-bg.jpg"
-        imageAlt="Zarrinkelk CPAs office"
+        imageSrc="/images/dji_0033.1200x900-1024x768.webp"
+        imageAlt="Irvine Great Park aerial view"
       />
 
       {/* Our Story */}
