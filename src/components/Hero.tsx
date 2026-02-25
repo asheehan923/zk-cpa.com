@@ -28,18 +28,18 @@ export default function Hero({
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#1A35BF] leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#2b3947] leading-tight">
             {heading}
           </h1>
           {subtext && (
-            <p className="mt-4 text-lg text-[#3A6AE8] leading-relaxed">
+            <p className="mt-4 text-lg text-[#4a6080] leading-relaxed">
               {subtext}
             </p>
           )}
           {ctaLabel && ctaHref && (
             <Link
               href={ctaHref}
-              className="mt-8 inline-block px-8 py-3 bg-[#1A35BF] text-white font-semibold rounded hover:bg-[#2244D0] transition-colors text-base shadow-md"
+              className="mt-8 inline-block px-8 py-3 bg-[#2b3947] text-white font-semibold rounded hover:bg-[#2b3947] transition-colors text-base shadow-md"
             >
               {ctaLabel}
             </Link>

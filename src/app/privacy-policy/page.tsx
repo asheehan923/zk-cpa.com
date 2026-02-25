@@ -10,7 +10,7 @@ export default function PrivacyPolicyPage() {
   return (
     <div className="bg-[#F7F8FA] min-h-screen">
       {/* Header */}
-      <div className="bg-[#1A35BF] py-12">
+      <div className="bg-[#2b3947] py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl md:text-4xl font-bold text-white">Privacy Policy</h1>
           <p className="mt-2 text-blue-200 text-sm">Last updated: January 1, 2025</p>
@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
         <div className="bg-white rounded-xl shadow-sm p-8 md:p-12 prose prose-blue max-w-none text-gray-700 leading-relaxed space-y-8">
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">1. Introduction</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">1. Introduction</h2>
             <p>
               Zarrinkelk CPAs, Inc. (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your
               personal information and your right to privacy. This Privacy Policy explains how we
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">2. Information We Collect</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">2. Information We Collect</h2>
             <p>We may collect information that you voluntarily provide, including:</p>
             <ul className="list-disc pl-6 mt-2 space-y-1 text-sm">
               <li>Name, email address, and phone number submitted via our contact form</li>
@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">3. How We Use Your Information</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">3. How We Use Your Information</h2>
             <p>We use the information we collect to:</p>
             <ul className="list-disc pl-6 mt-2 space-y-1 text-sm">
               <li>Respond to your inquiries and provide requested services</li>
@@ -56,7 +56,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">4. Confidentiality</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">4. Confidentiality</h2>
             <p>
               As a licensed CPA firm, we are bound by professional standards of confidentiality
               under California CPA regulations and the AICPA Code of Professional Conduct. All
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">5. Third-Party Services</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">5. Third-Party Services</h2>
             <p>
               Our website uses Formspree to process contact form submissions. Formspree&apos;s
               privacy policy governs information submitted through that service. We do not use
@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">6. Data Security</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">6. Data Security</h2>
             <p>
               We implement appropriate technical and organizational measures to protect your
               personal information against unauthorized access, alteration, disclosure, or
@@ -85,7 +85,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">7. Your Rights</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">7. Your Rights</h2>
             <p>
               You may request access to, correction of, or deletion of personal information we
               hold about you by contacting us at{" "}
@@ -96,7 +96,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1A35BF] mb-3">8. Contact Us</h2>
+            <h2 className="text-xl font-bold text-[#2b3947] mb-3">8. Contact Us</h2>
             <p>
               If you have questions about this Privacy Policy, please contact us:
             </p>
@@ -110,7 +110,7 @@ export default function PrivacyPolicyPage() {
         </div>
 
         <div className="mt-8 text-center">
-          <Link href="/" className="text-sm text-[#00AEEF] hover:text-[#1A35BF] transition-colors">
+          <Link href="/" className="text-sm text-[#00AEEF] hover:text-[#2b3947] transition-colors">
             &larr; Back to Home
           </Link>
         </div>

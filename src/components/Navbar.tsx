@@ -30,7 +30,7 @@ export default function Navbar() {
               className="object-contain"
               priority
             />
-            <span className="text-[#1A35BF] font-bold text-base leading-tight hidden sm:block">
+            <span className="text-[#2b3947] font-bold text-base leading-tight hidden sm:block">
               Zarrinkelk CPAs, Inc.
             </span>
           </Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
                 className={`text-sm font-medium transition-colors ${
                   pathname === href
                     ? "text-[#00AEEF] border-b-2 border-[#00AEEF] pb-0.5"
-                    : "text-gray-600 hover:text-[#1A35BF]"
+                    : "text-gray-600 hover:text-[#2b3947]"
                 }`}
               >
                 {label}
@@ -52,7 +52,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="ml-2 px-4 py-2 bg-[#1A35BF] text-white text-sm font-semibold rounded hover:bg-[#2244D0] transition-colors"
+              className="ml-2 px-4 py-2 bg-[#2b3947] text-white text-sm font-semibold rounded hover:bg-[#2b3947] transition-colors"
             >
               Get Started
             </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-gray-600 hover:text-[#1A35BF]"
+            className="md:hidden text-gray-600 hover:text-[#2b3947]"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
@@ -84,7 +84,7 @@ export default function Navbar() {
               href={href}
               onClick={() => setMenuOpen(false)}
               className={`block py-2 text-sm font-medium transition-colors ${
-                pathname === href ? "text-[#00AEEF]" : "text-gray-600 hover:text-[#1A35BF]"
+                pathname === href ? "text-[#00AEEF]" : "text-gray-600 hover:text-[#2b3947]"
               }`}
             >
               {label}

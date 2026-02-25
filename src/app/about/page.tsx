@@ -41,7 +41,7 @@ export default function AboutPage() {
               <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
                 Our Story
               </p>
-              <h2 className="text-3xl font-bold text-[#1A35BF] mb-4">
+              <h2 className="text-3xl font-bold text-[#2b3947] mb-4">
                 Trusted Accounting Excellence
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -78,7 +78,7 @@ export default function AboutPage() {
             <p className="text-[#00AEEF] font-semibold text-sm uppercase tracking-wider mb-3">
               Our Team
             </p>
-            <h2 className="text-3xl font-bold text-[#1A35BF]">Meet Our Expert</h2>
+            <h2 className="text-3xl font-bold text-[#2b3947]">Meet Our Expert</h2>
             <div className="mt-4 mx-auto w-16 h-1 bg-[#00C2E8] rounded" />
           </div>
 
@@ -94,7 +94,7 @@ export default function AboutPage() {
                     className="w-full h-full object-cover object-top"
                   />
                 </div>
-                <h3 className="mt-4 text-xl font-semibold text-[#1A35BF]">Majid Zarrinkelk</h3>
+                <h3 className="mt-4 text-xl font-semibold text-[#2b3947]">Majid Zarrinkelk</h3>
                 <p className="text-[#00AEEF] font-medium text-sm mt-1">Certified Public Accountant</p>
                 <p className="text-gray-500 text-xs mt-1">CPA, CA License</p>
               </div>
@@ -123,7 +123,7 @@ export default function AboutPage() {
                 decisions — whether structuring a business entity, managing an estate, or
                 planning for retirement.
               </p>
-              <p className="text-[#2244D0] font-medium italic">
+              <p className="text-[#2b3947] font-medium italic">
                 &ldquo;My goal is simple: help my clients keep more of what they earn and make
                 informed decisions with confidence.&rdquo;
                 <span className="block text-gray-500 font-normal not-italic mt-1">— Majid Zarrinkelk, CPA</span>
@@ -134,7 +134,7 @@ export default function AboutPage() {
       </section>
 
       {/* Services CTA */}
-      <section className="py-16 bg-gradient-to-r from-[#1A35BF] to-[#00AEEF]">
+      <section className="py-16 bg-gradient-to-r from-[#2b3947] to-[#00AEEF]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Explore Our Services
@@ -144,7 +144,7 @@ export default function AboutPage() {
           </p>
           <Link
             href="/services"
-            className="inline-block px-10 py-4 bg-white text-[#1A35BF] font-bold rounded hover:bg-blue-50 transition-colors text-base shadow"
+            className="inline-block px-10 py-4 bg-white text-[#2b3947] font-bold rounded hover:bg-blue-50 transition-colors text-base shadow"
           >
             View Services
           </Link>

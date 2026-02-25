@@ -19,16 +19,16 @@ export default function ServiceCard({ title, description, imageSrc, icon }: Serv
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 100vw, 25vw"
           />
-          <div className="absolute inset-0 bg-[#1A35BF]/25" />
+          <div className="absolute inset-0 bg-[#2b3947]/25" />
         </div>
       )}
       <div className="p-6">
         {icon && (
-          <div className="w-12 h-12 bg-[#E8F6FD] rounded-lg flex items-center justify-center mb-4 text-[#1A35BF]">
+          <div className="w-12 h-12 bg-[#E8F6FD] rounded-lg flex items-center justify-center mb-4 text-[#2b3947]">
             {icon}
           </div>
         )}
-        <h3 className="text-lg font-semibold text-[#1A35BF] mb-2">{title}</h3>
+        <h3 className="text-lg font-semibold text-[#2b3947] mb-2">{title}</h3>
         <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
       </div>
     </div>

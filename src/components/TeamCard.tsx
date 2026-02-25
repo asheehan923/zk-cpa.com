@@ -20,7 +20,7 @@ export default function TeamCard({ name, title, bio, imageSrc }: TeamCardProps) 
         />
       </div>
       <div className="mt-4">
-        <h3 className="text-xl font-semibold text-[#1A35BF]">{name}</h3>
+        <h3 className="text-xl font-semibold text-[#2b3947]">{name}</h3>
         <p className="text-[#00AEEF] font-medium text-sm mt-1">{title}</p>
         {bio && <p className="mt-3 text-gray-600 text-sm leading-relaxed max-w-sm mx-auto">{bio}</p>}
       </div>
